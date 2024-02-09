@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Lobster&family=Raleway&display=swap');
+
+body{
+    width: 768px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('https://kartinki.pics/pics/uploads/posts/2022-08/1660659698_1-kartinkin-net-p-oboi-mnogo-serdechek-krasivo-1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#letter{
+    background-color: rgb(255, 111, 135);
+    border: 3px black;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    z-index: 0;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-family: 'Lobster', sans-serif;
+}
+
+#list{
+    width: 500px;
+    height: 350px;
+    background-color: #fff;
+    position: absolute;
+    top: 125px;
+    left: 130px;
+    text-align: center;
+    font-size: 40px;
+    z-index: 1;
+    font-family: 'Lobster', sans-serif;
+}
+
+#text{
+    height: 100px;
+    width: 400px;
+    margin: 10px 50px;
+}
+
+
+#heart{
+    height: 100px;
+    width: 100px;
+}
+
+#letter1{
+    background-color: pink;
+    border: 3px black;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 80px;
+    font-family: 'Lobster', sans-serif;
+}
+
+#letter1:hover{
+    opacity: 0%;
+}
+
+#бант{
+    width: 600px;
+    height: 400px;
+    z-index: 3;
+}
+
+#btn{
+    position: absolute;
+    top: 240px;
+    left: 90px;
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: red;
+    border: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+}
