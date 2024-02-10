@@ -18,7 +18,7 @@ body{
     height: 400px;
     position: relative;
     z-index: 0;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 80px;
     font-family: 'Lobster', sans-serif;
 }
@@ -28,7 +28,7 @@ body{
     height: 350px;
     background-color: #fff;
     position: absolute;
-    top: 125px;
+    top: 90px;
     left: 130px;
     text-align: center;
     font-size: 40px;
@@ -55,32 +55,44 @@ body{
     height: 400px;
     position: absolute;
     z-index: 1;
-    top: 100px;
+    top: 70px;
     left: 80px;
     font-family: 'Lobster', sans-serif;
 }
 
 #letter1:hover{
     opacity: 0%;
+    left: 250px;
+    width: 50px;
+    height: 50px;
 }
 
-#бант{
-    width: 600px;
-    height: 400px;
+#bow{
+    width: 300px;
+    height: 300px;
     z-index: 3;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+
+#bow:hover{
+    width: 60px;
+    height: 40px;
+    z-index: 0;
 }
 
 #btn{
     position: absolute;
-    top: 240px;
-    left: 90px;
+    top: 250px;
+    left: 120px;
     width: 300px;
     height: 70px;
     border-radius: 20px;
     text-align: center;
     background-color: red;
     border: none;
-
+    z-index: 2;
 }
 
 a{
@@ -88,4 +100,22 @@ a{
     color: white;
     font-size: 40px;
     font-family: 'Lobster', sans-serif;
+}
+
+#string{
+    background-color: red;
+    width: 600px;
+    height: 30px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+#string1{
+    background-color: red;
+    width: 30px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
 }
